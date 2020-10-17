@@ -605,3 +605,87 @@
     /* Windows 8 IE 10 fix */
     -ms-perspective: 1200px;
   }
+
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tunes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    text-align: center;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  br{
+    margin-top: 5vh 0vw;
+  }
+
+  button{
+    box-shadow: 2px 4px 8px grey;
+  }
+  button:hover {
+    box-shadow: 4px 8px 16px grey;
+    background-color: #1b1b1b;
+    color: white;
+  }
+
+  .tunes{
+    margin-bottom: 10vh 0vw;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: flex-start;
+    align-items: flex-start;
+
+    text-align: center;
+
+    max-height: 100px;
+
+    margin-top:15vh;
+  }
+
+  .footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+
+    text-align: center;
+  }
+
+  .footer-li{
+    margin: 0vh 4vw;
+    font-size: 3rem;
+  }
+
+  .deactivated{
+    background-color: grey;
+  }
+  .deactivated:hover{
+    background-color: grey;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
