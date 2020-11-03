@@ -65,6 +65,13 @@ window.addEventListener("load", event => {
          song: "https://music.chrisconnelly.dev/music/ninja.mp3",
          color: "#FF69B4"
       },
+      {
+         img: "https://music.chrisconnelly.dev/intergalactic.png",
+         artistName: "Beastie Boys",
+         songName: "Intergalactic (Unnecessary Roughness Remix)",
+         song: "https://music.chrisconnelly.dev/music/intergalactic.mp3",
+         color: "#ffa500 "
+      },
 
    ];
 
